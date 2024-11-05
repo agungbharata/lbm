@@ -19,21 +19,21 @@ const testimonials = [
 export function Testimonials() {
   return (
     <section id="testimonials" className="py-20 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-5xl font-bold text-gray-900 mb-4">Apa Kata Member Kami?</h2>
+      <div className="px-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="mb-16 text-center">
+          <h2 className="mb-4 text-3xl font-bold text-gray-900 sm:text-5xl">Apa Kata Member Kami?</h2>
         </div>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid gap-8 md:grid-cols-2">
           {testimonials.map((testimonial) => (
-            <div key={testimonial.name} className="p-8 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300">
+            <div key={testimonial.name} className="p-8 transition-shadow duration-300 bg-white shadow-sm rounded-xl hover:shadow-md">
               <div className="flex items-center mb-4">
-                <img src={testimonial.image} alt={testimonial.name} className="w-12 h-12 rounded-full object-cover" />
+                <img src={testimonial.image} alt={testimonial.name} className="object-cover w-12 h-12 rounded-full" />
                 <div className="ml-4">
                   <h4 className="text-lg font-semibold text-gray-900">{testimonial.name}</h4>
                   <p className="text-gray-600">{testimonial.role}</p>
                 </div>
               </div>
-              <p className="text-gray-600 italic">{testimonial.quote}</p>
+              <p className="italic text-gray-600">{testimonial.quote}</p>
               <div className="flex items-center mt-4 text-[#FCB023]">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="w-5 h-5 fill-current" />

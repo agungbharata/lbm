@@ -11,31 +11,28 @@ const features = [
 export function Pricing() {
   return (
     <section id="pricing" className="py-20 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">Special Launch Offer!</h2>
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="mb-16 text-center">
+          <h2 className="mb-4 text-4xl font-bold text-gray-900 sm:text-5xl">Special Launch Offer!</h2>
         </div>
 
         <div className="max-w-2xl mx-auto">
-          <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-            <div className="py-16 px-8 sm:px-16 sm:py-16 text-center">
+          <div className="overflow-hidden bg-white shadow-xl rounded-2xl">
+            <div className="px-8 py-16 text-center sm:px-16 sm:py-16">
               <h3 className="text-3xl font-bold text-[#00ACEE] mb-10">Kapan Lagi Mendapatkan Tawaran Sebanyak Ini?</h3>
-              <ul
-                className="space-y-
-              4 text-left mb-8"
-              >
+              <ul className="mb-8 text-left space-y- 4">
                 {features.map((feature) => (
                   <li key={feature} className="flex items-start">
-                    <Check className="w-8 h-8 text-blue-500 flex-shrink-0 mt-1" />
-                    <span className="ml-3 text-gray-600 text-lg">{feature}</span>
+                    <Check className="flex-shrink-0 w-8 h-8 mt-1 text-blue-500" />
+                    <span className="ml-3 text-lg text-gray-600">{feature}</span>
                   </li>
                 ))}
               </ul>
-              <p className="text-2xl text-gray-600 mb-10 font-bold">
+              <p className="mb-10 text-2xl font-bold text-gray-600">
                 Total Value: <span className="line-through">Rp 1.043.650</span>
               </p>
-              <h3 className="text-2xl font-bold text-gray-900 mb-2">Early Bird Price</h3>
-              <div className="flex justify-center items-baseline mb-10">
+              <h3 className="mb-2 text-2xl font-bold text-gray-900">Early Bird Price</h3>
+              <div className="flex items-baseline justify-center mb-10">
                 <span className="text-5xl font-extrabold text-[#00ACEE]">Rp 97.000</span>
               </div>
 

@@ -4,10 +4,10 @@ import boxLbmImage from "../assets/boxlbm.png";
 
 export function Hero() {
   return (
-    <section className="px-4 pt-48 pb-20 sm:px-6 lg:px-8">
+    <section className="px-6 pb-20 pt-36 sm:pt-48 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-7xl">
         <div className="justify-center max-w-4xl mx-auto text-center">
-          <h1 className="mb-6 text-4xl font-bold leading-tight text-gray-900 sm:text-6xl animate-fade-in sm:leading-tight">
+          <h1 className="mb-6 text-3xl font-bold leading-tight text-gray-900 sm:text-6xl animate-fade-in sm:leading-tight">
             Rahasia Mendapatkan Database Prospek Potensial di WhatsApp dalam 14 Hari,
             <span className="text-[#00ACEE]"> Tanpa Spam & 100% Autopilot!</span>
           </h1>
