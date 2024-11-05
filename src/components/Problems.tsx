@@ -1,12 +1,12 @@
-import React from 'react';
-import { XCircle, CheckCircle } from 'lucide-react';
+import React from "react";
+import { XCircle, CheckCircle } from "lucide-react";
 
 const problems = [
   "Prospek sedikit & tidak berkualitas",
   "Engagement rendah di broadcast WhatsApp",
   "Penjualan tidak konsisten setiap bulan",
   "Kesulitan follow up manual satu-persatu",
-  "Bingung cara scaling bisnis ke level berikutnya"
+  "Bingung cara scaling bisnis ke level berikutnya",
 ];
 
 const solutions = [
@@ -14,14 +14,14 @@ const solutions = [
   "Engagement tinggi & konversi konsisten",
   "Sistem follow up autopilot 24/7",
   "Omset bisnis naik signifikan",
-  "Bisnis yang bisa di-scale dengan mudah"
+  "Bisnis yang bisa di-scale dengan mudah",
 ];
 
 export function Problems() {
   return (
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl font-bold text-center text-gray-900 mb-16">
+        <h2 className="text-3xl max-w-3xl mx-auto sm:text-5xl font-bold text-center text-gray-900 mb-16">
           Apa Yang Membuat Bisnis Online Anda Stagnan?
         </h2>
         <div className="grid md:grid-cols-2 gap-16">
