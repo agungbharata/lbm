@@ -1,5 +1,5 @@
-import React from 'react';
-import { Star } from 'lucide-react';
+import React from "react";
+import { Star } from "lucide-react";
 
 const testimonials = [
   {
@@ -21,22 +21,13 @@ export function Testimonials() {
     <section id="testimonials" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Apa Kata Member Kami?
-          </h2>
+          <h2 className="text-3xl sm:text-5xl font-bold text-gray-900 mb-4">Apa Kata Member Kami?</h2>
         </div>
         <div className="grid md:grid-cols-2 gap-8">
           {testimonials.map((testimonial) => (
-            <div
-              key={testimonial.name}
-              className="p-8 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300"
-            >
+            <div key={testimonial.name} className="p-8 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow duration-300">
               <div className="flex items-center mb-4">
-                <img
-                  src={testimonial.image}
-                  alt={testimonial.name}
-                  className="w-12 h-12 rounded-full object-cover"
-                />
+                <img src={testimonial.image} alt={testimonial.name} className="w-12 h-12 rounded-full object-cover" />
                 <div className="ml-4">
                   <h4 className="text-lg font-semibold text-gray-900">{testimonial.name}</h4>
                   <p className="text-gray-600">{testimonial.role}</p>
