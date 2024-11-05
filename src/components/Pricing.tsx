@@ -19,7 +19,7 @@ export function Pricing() {
         <div className="max-w-2xl mx-auto">
           <div className="overflow-hidden bg-white shadow-xl rounded-2xl">
             <div className="px-8 py-16 text-center sm:px-16 sm:py-16">
-              <h3 className="text-3xl font-bold text-[#00ACEE] mb-10">Kapan Lagi Mendapatkan Tawaran Sebanyak Ini?</h3>
+              <h3 className="text-2xl sm:text-3xl font-bold text-[#00ACEE] mb-10">Kapan Lagi Mendapatkan Tawaran Sebanyak Ini?</h3>
               <ul className="mb-8 text-left space-y- 4">
                 {features.map((feature) => (
                   <li key={feature} className="flex items-start">

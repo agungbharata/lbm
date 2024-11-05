@@ -28,17 +28,17 @@ const templates = [
 export function Bonuses() {
   return (
     <section className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="mb-16 text-center">
           <span className="text-[#FCB023] font-bold text-xl">🎁 MEGA BONUS</span>
-          <h2 className="text-3xl sm:text-5xl font-bold text-gray-900 mt-2">Essential Templates Collection</h2>
+          <h2 className="mt-2 text-3xl font-bold text-gray-900 sm:text-5xl">Essential Templates Collection</h2>
           <p className="text-2xl text-[#00ACEE] mt-2">Value: Rp 297.000</p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid gap-8 md:grid-cols-2">
           {templates.map((section) => (
-            <div key={section.title} className="bg-gray-50 rounded-xl  p-8 sm:p-16">
-              <h3 className="text-2xl font-bold mb-6">{section.title}</h3>
+            <div key={section.title} className="p-8 bg-gray-50 rounded-xl sm:p-16">
+              <h3 className="mb-6 text-2xl font-bold">{section.title}</h3>
               <ul className="space-y-4">
                 {section.items.map((item) => (
                   <li key={item} className="flex items-center space-x-3">
@@ -51,8 +51,8 @@ export function Bonuses() {
           ))}
         </div>
 
-        <div className="mt-12 text-center bg-gray-50 rounded-xl p-8 sm:p-16">
-          <h3 className="text-3xl font-bold mb-4">Total Template Yang Anda Dapatkan:</h3>
+        <div className="p-8 mt-12 text-center bg-gray-50 rounded-xl sm:p-16">
+          <h3 className="mb-4 text-2xl font-bold sm:text-3xl">Total Template Yang Anda Dapatkan:</h3>
           <p className="text-4xl font-bold text-[#00ACEE]">275+ Premium Templates</p>
           <div className="mt-6 space-y-2 text-gray-600">
             <p className="text-lg">Siap pakai & sudah terbukti convert di berbagai industri!</p>
