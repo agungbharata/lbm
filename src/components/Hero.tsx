@@ -25,7 +25,7 @@ export function Hero() {
           </div>
         </div>
         <div className="relative mt-16">
-          <img src={boxLbmImage} alt="WhatsApp Marketing" className="p-8 mx-auto animate-fade-in-up w-[600px]" />
+          <img src="/images/boxlbm.png" alt="WhatsApp Marketing" className="p-8 mx-auto animate-fade-in-up w-[600px]" />
         </div>
       </div>
     </section>
