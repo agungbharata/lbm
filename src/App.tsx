@@ -9,9 +9,13 @@ import { FAQ } from "./components/FAQ";
 import { Pricing } from "./components/Pricing";
 import { Footer } from "./components/Footer";
 import { CallToAction } from "./components/CallToAction";
+import { MetaPixel } from "./components/MetaPixel";
+
 function App() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+      <MetaPixel />
+
       <Navbar />
       <Hero />
       <Problems />
