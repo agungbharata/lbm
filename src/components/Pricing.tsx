@@ -54,7 +54,6 @@ export function Pricing() {
 
               <a
                 href="https://ds.drip.id/lbm"
-                target="_blank"
                 rel="noopener noreferrer"
                 onClick={handleCTAClick}
                 className="block w-full bg-[#c53a32] text-white px-6 py-4 rounded-full text-lg font-semibold 
