@@ -4,7 +4,7 @@ import { Check } from "lucide-react";
 const features = [
   "Akses Lifetime ke Materi Program",
   "Essential Templates Collection - 275+ Templates! (Value: Rp 297.000)",
-  "14 Hari Intensive Training (Value: Rp 397.000)",
+  "14 Hari Intensive Program KULWA (Value: Rp 397.000)",
   "BONUS: 35% OFF Dripsender (Value: Rp 349.650)",
 ];
 
@@ -37,8 +37,7 @@ export function Pricing() {
               </div>
 
               <a
-                href="https://yourwebsite.com/register" // Ganti dengan URL tujuan Anda
-                target="_blank"
+                href="https://ds.drip.id/lbm"
                 rel="noopener noreferrer"
                 className="block w-full bg-[#c53a32] text-white px-6 py-4 rounded-full text-lg font-semibold 
                 hover:bg-red-500 hover:text-white transition-colors duration-300

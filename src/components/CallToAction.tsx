@@ -11,8 +11,7 @@ export function CallToAction() {
               <h2 className="mb-8 text-4xl font-bold text-white">Siap Untuk Scale Up Bisnis Anda?</h2>
 
               <a
-                href="https://yourwebsite.com/register"
-                target="_blank"
+                href="#pricing"
                 rel="noopener noreferrer"
                 className="block w-full bg-gray-50 text-[#00ACEE] px-4 py-4 rounded-full text-md sm:text-lg font-semibold 
                 hover:bg-red-500 hover:text-white transition-colors duration-300

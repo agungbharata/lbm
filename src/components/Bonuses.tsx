@@ -56,7 +56,7 @@ export function Bonuses() {
           <p className="text-4xl font-bold text-[#00ACEE]">275+ Premium Templates</p>
           <div className="mt-6 space-y-2 text-gray-600">
             <p className="text-lg">Siap pakai & sudah terbukti convert di berbagai industri!</p>
-            <p className="text-lg">*Semua template bisa langsung di-import ke Dripsender</p>
+            <p className="text-lg">*Setiap Template bisa langsung di-copy dan di-import ke Dripsender</p>
             <p className="text-lg">*Free update template baru setiap bulan</p>
           </div>
           <div className="max-w-md mx-auto my-6">

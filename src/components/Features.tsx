@@ -28,7 +28,7 @@ export function Features() {
             Perkenalkan: WhatsApp List Building Mastery
           </h2>
           <p className="max-w-3xl mx-auto text-xl text-gray-600 sm:text-2xl">
-            14 Hari Intensive Program untuk Scale Up Bisnis Anda dengan WhatsApp Marketing
+            14 Hari Intensive Program KULWA untuk Scale Up Bisnis Anda dengan WhatsApp Marketing
           </p>
         </div>
         <div className="grid gap-8 md:grid-cols-3">
