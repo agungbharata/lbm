@@ -9,6 +9,22 @@ const features = [
 ];
 
 export function Pricing() {
+  // Handler untuk tracking Facebook Pixel
+  const handleCTAClick = () => {
+    // Tracking Facebook Pixel
+    if (typeof window !== "undefined" && window.fbq) {
+      window.fbq("track", "AddToCart", {
+        content_name: "LBM-Dripsender",
+      });
+      console.log("Facebook Pixel Event: AddToCart tracked");
+    } else {
+      console.error("Facebook Pixel tidak terdefinisi");
+    }
+
+    // Log untuk debugging
+    console.log("Tombol CTA diklik");
+  };
+
   return (
     <section id="pricing" className="py-20 bg-gray-50">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -20,7 +36,7 @@ export function Pricing() {
           <div className="overflow-hidden bg-white shadow-xl rounded-2xl">
             <div className="px-8 py-16 text-center sm:px-16 sm:py-16">
               <h3 className="text-2xl sm:text-3xl font-bold text-[#00ACEE] mb-10">Kapan Lagi Mendapatkan Tawaran Sebanyak Ini?</h3>
-              <ul className="mb-8 text-left space-y- 4">
+              <ul className="mb-8 space-y-4 text-left">
                 {features.map((feature) => (
                   <li key={feature} className="flex items-start">
                     <Check className="flex-shrink-0 w-8 h-8 mt-1 text-blue-500" />
@@ -38,11 +54,13 @@ export function Pricing() {
 
               <a
                 href="https://ds.drip.id/lbm"
+                target="_blank"
                 rel="noopener noreferrer"
+                onClick={handleCTAClick}
                 className="block w-full bg-[#c53a32] text-white px-6 py-4 rounded-full text-lg font-semibold 
                 hover:bg-red-500 hover:text-white transition-colors duration-300
                 transform scale-100
-                focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50"
+                focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50 cta-button"
                 style={{
                   animation: "scale 1.5s ease-in-out infinite",
                 }}
@@ -55,6 +73,19 @@ export function Pricing() {
           </div>
         </div>
       </div>
+
+      {/* Custom keyframes untuk animasi scale */}
+      <style jsx global>{`
+        @keyframes scale {
+          0%,
+          100% {
+            transform: scale(1);
+          }
+          50% {
+            transform: scale(1.1);
+          }
+        }
+      `}</style>
     </section>
   );
 }
