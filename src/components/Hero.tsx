@@ -1,6 +1,5 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
-import boxLbmImage from "../assets/boxlbm.png";
 
 export function Hero() {
   return (
@@ -24,8 +23,8 @@ export function Hero() {
             </a>
           </div>
         </div>
-        <div className="relative mt-16">
-          <img src="/images/boxlbm.png" alt="WhatsApp Marketing" className="p-8 mx-auto animate-fade-in-up w-[600px]" />
+        <div className="relative max-w-4xl mx-auto mt-16">
+          <img src="/images/bgwa.jpg" alt="WhatsApp Marketing" className="w-full p-8 mx-auto rounded-lg animate-fade-in-up" />
         </div>
       </div>
     </section>

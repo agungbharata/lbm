@@ -27,6 +27,9 @@ export function Features() {
           <h2 className="justify-center max-w-3xl mx-auto mb-4 text-3xl font-bold text-gray-900 sm:text-5xl">
             Perkenalkan: WhatsApp List Building Mastery
           </h2>
+          <div className="relative mt-16">
+            <img src="/images/boxlbm.png" alt="WhatsApp Marketing" className="p-8 mx-auto animate-fade-in-up w-[600px]" />
+          </div>
           <p className="max-w-3xl mx-auto text-xl text-gray-600 sm:text-2xl">
             14 Hari Intensive Program KULWA untuk Scale Up Bisnis Anda dengan WhatsApp Marketing
           </p>
