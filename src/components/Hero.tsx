@@ -23,9 +23,9 @@ export function Hero() {
             </a>
           </div>
         </div>
-        <div className="relative max-w-4xl mx-auto mt-16">
+        {/* <div className="relative max-w-4xl mx-auto mt-16">
           <img src="/images/bgwa.jpg" alt="WhatsApp Marketing" className="w-full p-8 mx-auto rounded-lg animate-fade-in-up" />
-        </div>
+        </div> */}
       </div>
     </section>
   );
