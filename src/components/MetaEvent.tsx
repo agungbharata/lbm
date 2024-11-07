@@ -7,6 +7,8 @@ export function CallToAction() {
     if (typeof window !== "undefined" && window.fbq) {
       window.fbq("track", "AddToCart", {
         content_name: "LBM-Dripsender",
+        value: 97000.0, // Harga dalam format angka
+        currency: "IDR", // Menambahkan mata uang
       });
       console.log("Facebook Pixel Event: AddToCart tracked");
     } else {
