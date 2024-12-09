@@ -5,7 +5,7 @@ const features = [
   "Akses Lifetime ke Materi Program",
   "Essential Templates Collection - 275+ Templates! (Value: Rp 297.000)",
   "14 Hari Intensive Program KULWA (Value: Rp 397.000)",
-  "BONUS: 1 Bulan 1 WA Dripsender (Value Rp 99.000",
+  "BONUS: 1 Bulan 1 WA Dripsender (Value Rp 99.000)",
 ];
 
 export function Pricing() {
