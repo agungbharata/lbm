@@ -5,7 +5,7 @@ const features = [
   "Akses Lifetime ke Materi Program",
   "Essential Templates Collection - 275+ Templates! (Value: Rp 297.000)",
   "14 Hari Intensive Program KULWA (Value: Rp 397.000)",
-  "BONUS: 35% OFF Dripsender (Value: Rp 349.650)",
+  "BONUS: 1 Bulan 1 WA Dripsender (Value Rp 99.000",
 ];
 
 export function Pricing() {
@@ -49,7 +49,7 @@ export function Pricing() {
               </p>
               <h3 className="mb-2 text-2xl font-bold text-gray-900">Early Bird Price</h3>
               <div className="flex items-baseline justify-center mb-10">
-                <span className="text-5xl font-extrabold text-[#00ACEE]">Rp 97.000</span>
+                <span className="text-5xl font-extrabold text-[#00ACEE]">Rp 147.000</span>
               </div>
 
               <a
